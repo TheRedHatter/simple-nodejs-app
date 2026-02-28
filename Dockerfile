@@ -8,7 +8,7 @@
 
 # ENTRYPOINT start npm
 
-FROM node
+FROM node:25.7.0-bookworm
 
 WORKDIR /app
 
