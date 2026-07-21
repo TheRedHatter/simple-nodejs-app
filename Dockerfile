@@ -8,7 +8,7 @@
 
 # ENTRYPOINT start npm
 
-FROM node
+FROM node:26.3.1-trixie
 
 WORKDIR /app
 
